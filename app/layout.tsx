@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${pretendard.className} flex justify-center min-h-screen overflow-x-hidden relative`}
       >
-        <div className="hidden lg:flex items-center justify-center w-[calc((100vw-430px)/2)] fixed left-0 top-1/2 -translate-y-1/2 origin-left bg-[#EEEEF4]">
+        <div className="hidden lg:flex items-center justify-center w-[calc((100dvw-430px)/2)] fixed left-0 top-1/2 -translate-y-1/2 origin-left bg-[#EEEEF4]">
           <p
             className={`${bmJua.className} flex flex-col items-center text-center font-bold text-4xl text-[var(--b400)]`}
           >
