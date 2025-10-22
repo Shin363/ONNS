@@ -57,6 +57,7 @@ const HomeCarousel = ({ slides, onSlideClick }: HomeCarouselProps) => {
                 src={slide.img}
                 alt={`slide-${slide.id}`}
                 fill
+                sizes="390px"
                 className="object-cover cursor-pointer"
                 onClick={() => onSlideClick(slide.id)}
                 priority={idx === 0}
