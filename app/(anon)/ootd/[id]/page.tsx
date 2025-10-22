@@ -153,12 +153,13 @@ export default function OotdDetail() {
               isMyPost={post.isMyPost}
               handlePostDelete={handlePostDelete}
             />
-            <div className="relative w-full h-[429px] bg-neutral-200 object-cover">
+            <div className="relative w-full h-[429px] bg-neutral-200">
               <Image
                 src={post.photos && post.photos.length > 0 ? post.photos[0].img_url : ''}
                 alt="게시글 이미지"
                 className="object-cover"
                 fill
+                sizes="430px"
                 priority
               />
             </div>
